@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2f4c73;
+}
+#navbar-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1b2651;
+  padding: 20px;
+}
+.navbar-item {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: black;
+  font-size: 20px;
+}
+.navbar-item a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar-item a:hover {
+  color: #f2ca80;
+}

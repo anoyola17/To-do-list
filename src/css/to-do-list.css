@@ -1,0 +1,81 @@
+.To-do-list--form {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px black;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.To-do-list--container h1 {
+  text-align: center;
+  font-size: 26px;
+  color: AliceBlue;
+  padding: 20px;
+  margin-top: 2em;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 70%;
+  margin-right: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.add-btn {
+  background-color: #228b22;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-btn:hover {
+  background-color: #3ea23e;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.task-item {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.delete-btn {
+  background-color: #b20f0f;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-btn:hover {
+  background-color: #b22222;
+}
